@@ -1,8 +1,10 @@
 def main():
     plist = []
-    ##################################################
-    # Comlete your code here
-    ##################################################
+    
+    begin = int(input("Enter the first number here:"))
+    end = int(input("Enter the ending number here:"))
+    
+    
 
     return plist
 
