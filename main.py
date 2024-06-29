@@ -8,13 +8,13 @@ def main():
         if number > 1:
             for i in range (2 , number):
             
-                if number % 2 == 0:
+                if number % i == 0:
                     break
              
             else:
                 plist. append(number)
                 
-    print("Prime numbers in the range:", plist)
+    print("Prime numbers in the range:, plist")
     
     
 
