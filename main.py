@@ -7,8 +7,14 @@ def main():
     for number in range(begin , end + 1):
         if number > 1:
             for i in range (2 , number):
-                in number % 2 == 0:
+            
+                if number % 2 == 0:
                     break
+             
+            else:
+                plist. append(number)
+                
+    print("Prime numbers in the range:", plist)
     
     
 
