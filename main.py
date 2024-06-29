@@ -14,7 +14,7 @@ def main():
             else:
                 plist. append(number)
                 
-    print("Prime numbers in the range:, plist")
+    print("Prime numbers in the range:", plist)
     
     
 
